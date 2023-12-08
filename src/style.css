@@ -1,0 +1,85 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #401789;
+    color: #c19f7a;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #401789;
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.textInput {
+    padding: 0.5rem;
+    border: 1px solid #401789;
+    border-radius: 5px;
+}
+
+.textInput::placeholder {
+    color: #401789;
+}
+
+.labelCheckbox {
+    font-size: 1rem;
+}
+
+.labelCheckbox::after {
+    content: "*";
+}
+
+.textTitle {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.buttonSubmit {
+    margin-top: 12px;
+    padding: 0.5rem;
+    border: 1px solid #401789;
+    border-radius: 5px;
+    background-color: #401789;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttonSubmit:hover {
+    background-color: #4c1aa7;
+    color: whitesmoke;
+}
+
+.nameAndAgeContainer, .emailAndPassword {
+    display: flex;
+    column-gap: 10px;
+}
+
+.checkStyle {
+   accent-color: #401789;
+}
+
+#registered{
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(7, 253, 7);
+}
+
+
+
+

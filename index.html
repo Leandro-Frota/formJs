@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <form id="form" class="formStyle">
+        <h3 class="textTitle">Formulário</h3>
+        <div class="nameAndAgeContainer">
+            <input id="name" class="textInput" type="text" placeholder="Nome*" required/>
+            <input id="age" class="textInput" type="number" placeholder="Idade*" required/>
+           
+        </div>
+        <div class="emailAndPassword"> 
+            <input id="email" class="textInput" type="email" placeholder="Email*" required >
+            <input id="password" class="textInput" type="password" placeholder="password*">
+        </div>
+        <div class="containerCheckbox">
+            <input id="hasTickets" class="checkStyle" type="checkbox" />
+            <label class="labelCheckbox" for="check-ticket">Tem ingresso?</label>
+        </div>
+        <div class="containerCheckbox">
+            <input id="checkedParents" class="checkStyle" type="checkbox" />
+            <label class="labelCheckbox" for="check-parents">Tá acompanhado pelos pais?</label>
+        </div>
+        <div class="containerCheckbox">
+            <input id="hasCovid" class="checkStyle" type="checkbox" id="check-covid" />
+            <label class="labelCheckbox" for="check-covid">Positivo no Covid?</label>
+        </div>
+        <button id="button" class="buttonSubmit">
+            Registrar
+        </button>
+
+        <div id="registered"></div>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
